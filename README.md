@@ -1,24 +1,13 @@
-# yihe_v1.0.0
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 使用vue-cli初始化项目
+- 配置git cz + commitlint （配置.cz.config.js、commitlint.config.js）
+- 配置husky + lint-stage
+- 配置eslint + prettier
+- 配置stylelint
+- 配置unplugin-vue-components
+- 配置unplugin-auto-import
+- 配置ant-design-vue的主题定制
+- 配置.vscode
+- 配置svg图标
+- 配置hooks
+- 封装axios请求
+- 对vue、vue-router等模块定义声明文件

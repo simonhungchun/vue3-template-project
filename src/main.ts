@@ -1,5 +1,10 @@
 import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
-
-createApp(App).use(router).mount("#app");
+import "normalize.css";
+import App from "@/App.vue";
+import router from "@/router";
+import pinia from "@/store";
+import SvgIcon from "@/components/SvgIcon";
+const app = createApp(App);
+app.use(SvgIcon);
+app.use(pinia);
+app.use(router).mount("#app");
