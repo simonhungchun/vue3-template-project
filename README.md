@@ -1,13 +1,13 @@
-- 使用vue-cli初始化项目
-- 配置git cz + commitlint （配置.cz.config.js、commitlint.config.js）
-- 配置husky + lint-stage
-- 配置eslint + prettier
-- 配置stylelint
-- 配置unplugin-vue-components
-- 配置unplugin-auto-import
-- 配置ant-design-vue的主题定制
+- 使用 vue-cli 初始化项目
+- 配置 git cz + commitlint （配置.cz.config.js、commitlint.config.js）
+- 配置 husky + lint-stage
+- 配置 eslint + prettier
+- 配置 stylelint
+- 配置 unplugin-vue-components
+- 配置 unplugin-auto-import
+- 配置 ant-design-vue 的主题定制
 - 配置.vscode
-- 配置svg图标
-- 配置hooks
-- 封装axios请求
-- 对vue、vue-router等模块定义声明文件
+- 配置 svg 图标
+- 配置 hooks
+- 封装 axios 请求
+- 对 vue、vue-router 等模块定义声明文件
