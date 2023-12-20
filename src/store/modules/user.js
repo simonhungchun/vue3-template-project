@@ -10,7 +10,7 @@ export const useUserStore = defineStore("user", {
       this.count++;
     },
     async decrease() {
-      function delay(timeout = 2000): Promise<number> {
+      function delay(timeout = 2000) {
         return new Promise((resolve) => {
           setTimeout(() => {
             // 位运算符

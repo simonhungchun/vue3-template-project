@@ -4,8 +4,8 @@
   </svg>
 </template>
 
-<script lang="ts" setup>
-defineProps<{ icon: string }>();
+<script setup>
+defineProps({ icon: String });
 </script>
 
 <style lang="scss" scoped>

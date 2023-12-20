@@ -1,7 +1,7 @@
 import storejs from "storejs";
 import { message } from "ant-design-vue/es";
+import axios from "axios";
 import router from "@/router";
-import { RESPONSE_STATUS } from "@/service/response.status";
 
 const http = axios.create({
   baseURL: process.env.VUE_APP_URL,
@@ -21,7 +21,7 @@ http.interceptors.response.use(
     const code = response.data.code;
     if (response.status === 200) {
       if (code !== 200) {
-        message.error(RESPONSE_STATUS[code]);
+        message.error("error");
         return Promise.reject(response);
       } else {
         return Promise.resolve(response.data);

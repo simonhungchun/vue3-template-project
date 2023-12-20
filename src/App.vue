@@ -2,7 +2,7 @@
   <router-view id="app" />
 </template>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .app {
   position: absolute;
   width: 100vw;

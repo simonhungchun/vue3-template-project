@@ -1,6 +1,6 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import { useTitle } from "@vueuse/core";
-const routes: Array<RouteRecordRaw> = [
+const routes = [
   {
     path: "/",
     redirect: "/login",
